@@ -57,7 +57,7 @@ function updateProductList() {
     });
 
 
-    document.querySelector(".products-list").innerHTML = products;  // Вставляем полученную строку в блок .products-list
+    //  это исправить document.querySelector(".products-list").insertAdjacentElement = products;  // Вставляем полученную строку в блок .products-list
 }
 
 
