@@ -56,8 +56,8 @@ function updateProductList() {
         products += e; // Добавляем HTML-код каждого продукта к переменной products
     });
 
-
-    //  это исправить document.querySelector(".products-list").insertAdjacentElement = products;  // Вставляем полученную строку в блок .products-list
+    
+       document.querySelector(".products-list").innerHTML = products;  
 }
 
 
